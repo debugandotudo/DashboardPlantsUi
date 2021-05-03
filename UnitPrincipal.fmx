@@ -1,0 +1,545 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 527
+  ClientWidth = 295
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object lay_1: TLayout
+    Align = Contents
+    Size.Width = 295.000000000000000000
+    Size.Height = 527.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object rect_buttom: TRectangle
+      Align = Bottom
+      Fill.Color = claWhite
+      Position.Y = 477.000000000000000000
+      Size.Width = 295.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      object Circle3: TCircle
+        Anchors = [akLeft, akBottom]
+        Fill.Color = claWhite
+        Opacity = 0.800000011920929000
+        Position.X = 21.000000000000000000
+        Size.Width = 45.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image1: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 2
+          MultiResBitmap = <
+            item
+              Width = 34
+              Height = 34
+              PNG = {
+                89504E470D0A1A0A0000000D49484452000000220000002208060000003A470B
+                C2000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                026F494441545847BD970D51C43010853B28C0014840021270000EC001380007
+                E0804101120E07E0001CC07EA52F935CB39BB4F47833EFAED76E7637FB97DEB0
+                12C7C65BE3BBF17BE2CEF8683C35FE0BAE8D9F463950234E1E14189031767F6E
+                243A80EB27E3C19D21E43272C50D073746C9E1DCE67835A2FC6EFC1503196459
+                B32994128AB3A7184997EA689314A1F0DE884218A5641F1746AD5BD54DE415E3
+                8435EF0E72BF1479BD4074A23B748ADD3F1BF3855A7C665C0B8CE6DD2456A3C4
+                0D0D27A2F06024B46ACD2D802EB5B8228DCDC206DEE9416F2E9542A2A890F7B6
+                6BBEF1D4592C5EE204322C664D8D4BF42832E306148D9E8EC8778212E6052944
+                11E9D4B35E67346FF0212DEE2948C9928E5AFDE4058F6CABC67056B2E3056C81
+                88F518E0192731B23D5338D9579E5ADEAB2E7A52A8BA4B85E8009BC91179DFAA
+                782D68390C0A0301E4F0EEC83E5EB86388CE0419FF9AD802321FBF97C3C9F45D
+                C3E5F43DFA8011A5271AE3DA614F4480E43DF082C5736A2E7558CF3B846AA495
+                4290423EFE9A233F10679B574F7B5DB1E41D031DC87A85ADE76E57459D817352
+                300EA00A90691D17F91870A1147986187AF9818552D200592B4791F106A4065E
+                3806588C90975B908FF91A79164D698D8B7092CB91306C13D8914E5E481429C2
+                16B489A8AD53B5F714E45AA80E0BA7196839545C1A4687800662D199FB8EBC4D
+                DF61FEFE0839106E1621C2060B8F37828EFD2EFDCA21AF7E5B039DE8F6C64301
+                750E6C1D84740ED311527CB50126E84F1A8CE40AE4670FDED34D18865C6B7AD6
+                287920794519BA63DD03CE688A7AC48022A289E9115DB303AE17849097624D43
+                C840C2702DBCDCE37F4B4D3E28CE61F8019068169F94E142C20000000049454E
+                44AE426082}
+              FileName = 
+                'C:\Users\User\Desktop\iago\Projetos Delphi\DashboardPlantsUi\ima' +
+                'ges\icons\icon_flower.png'
+            end>
+          Align = Client
+          Locked = True
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Circle4: TCircle
+        Align = Center
+        Fill.Color = claWhite
+        Opacity = 0.899999976158142100
+        Size.Width = 45.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image2: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 2
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                026F494441545847ED97B156D44014866762B1A078121BA5233C81F80486CA52
+                ECEC80924A7802E00DB4B3139E80C313B8BE0176949B4EBBE41C3D641B87FFBF
+                9959483684C99A1C8FE7F015993B4966FEFFDE9D99DD550FFC6BB46DE7085FAC
+                255AE9B70863BC1529A32E8C32DFD11FE73FD389BC54230CD722B5A4B630EEA5
+                8C01C698140DC78CD9AF33674084B5FE82302EEF347294FD981CDB588856E343
+                98DC77C20D4C6066B76EA4624026C1E4D2312A43C69F9839DECAD06EE8402A92
+                D8E717A6309B0CF5B23E4353DE47B6E68F39973100A2491004AF11BA842AE667
+                0690F98ECD9C838EE1B43452A352219A235A6DE0DA98A103E38E308E09921D98
+                38652006F030C6C3AF08E33671C7EDF7CB3B22BE89718D6BC33133C1EA16663D
+                CFD32CB0CF583E4EC6C5D22A4E2844418414F4122776EE31D2E662DDE73D3100
+                57DB6C319194C5070AA28CEBE6CABCF21177B0C26CA1C975511A00524A5BD64E
+                B08C36F4A3B0EB068B9A4DC500B2C9A5372033C376BB3A0352426CA7507A0322
+                87D52D4A03763B196DDE497F484637E7052F62000BE31B5B6DE4A019141C661F
+                D8BA055F5660AA4E70E5C790D8D37010A2E731C559016A49051EF1329DE6C5E8
+                71986217BC4737595A8926C5AF8C5F3CBD81C4B6B1F03E3346F607D8BA3706C8
+                F4777E397A12C283A6C3AD3E4D88B8922ACB3900F18F8CC9CC00818971DF261A
+                C42B276DC500E9D3C47DE264CE00E9C3848F38693440FEC684AF38B9D30059C4
+                441771D26A807431D1559CDC6B80F89858449C7819206D26161527DE0648DDC4
+                E869982FAF3C7B83580E96AEE2E4CEFF056DD47E600A8B88934E1570D84AA4F8
+                03C2EE257EBEEF415C3E8207FE3394BA0680709088CEA79BF90000000049454E
+                44AE426082}
+              FileName = 
+                'C:\Users\User\Desktop\iago\Projetos Delphi\DashboardPlantsUi\ima' +
+                'ges\icons\icon_heart.png'
+            end>
+          Align = Client
+          Locked = True
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Circle5: TCircle
+        Anchors = [akRight, akBottom]
+        Fill.Color = claWhite
+        Opacity = 0.699999988079071000
+        Position.X = 220.000000000000000000
+        Size.Width = 45.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image3: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 2
+          MultiResBitmap = <
+            item
+              Width = 42
+              Height = 42
+              PNG = {
+                89504E470D0A1A0A0000000D494844520000002A0000002A0806000000C5C3C9
+                5B000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                01E4494441545847ED98814DC33010450D1330021BC006C0068C001BB0013001
+                23C006C004C004C004B041D900EEA5F9E81492D676DCA4127ED2574863C7BFF6
+                F97C25542A957FC64E7B2DC19EE9D8B4DFDC85F0697A367D35775B00C66E4D0B
+                D3778F7826F3B371681A32E8F561A2ED2C304BDEE493E9C2C4F2A3331306F59C
+                B6B398F526AEF860009EA91D5F66524E4D1A9C185CC7BD49ED99EDC9C09C068E
+                D928B451FB982F568C571383728D45A192D2E797DDF69A0A39135272247915D4
+                37895CA33298921F65508693C835FAD25E311AB33968A7D494653417CC6973C4
+                A41CDAA8FDA4BB1EFCE0ECE4BED8E3339F214853598C294A584ECC2A4E59D207
+                D37B7317C28189D3C9C7E6497B9D1C8C68B6D6894362728833BFF4B1F22B9044
+                CED2DF98283E3C2CE7A3E9ADB95BA62F0CA12353B718E1FCBF5EFE591E62AD3B
+                8BDCC7EC628CDE997C5F3656DF061C8D37C971989366E8E3AB2EDE59944B9337
+                9915672DF4F56609A522300BA54C8AAED99CD5F9837F61C90ADD4FC0E810482D
+                9053F11B6CD4ACFACABCC49277E19D7A3FA75A36FAF1567C773A944D186B9055
+                651EF1A83CA7B26E13705000630DEE81552713F1A96A875384FF7A6C024E2EFD
+                8A3D3711B749A4141CA5C498BDE456F893B36AE9D9914512710284D72CF56AA5
+                52D92E42F801A5C5C65A0F5807C80000000049454E44AE426082}
+              FileName = 
+                'C:\Users\User\Desktop\iago\Projetos Delphi\DashboardPlantsUi\ima' +
+                'ges\icons\icon_profile.png'
+            end>
+          Align = Client
+          Locked = True
+          HitTest = False
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 35.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object animaRectBtn: TFloatAnimation
+        Duration = 0.300000011920929000
+        PropertyName = 'Margins.Bottom'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+    end
+    object rect_tb: TRectangle
+      Align = Top
+      Fill.Color = claWhite
+      Size.Width = 295.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      object Circle1: TCircle
+        Align = Right
+        Fill.Color = claWhite
+        Position.X = 205.000000000000000000
+        Size.Width = 45.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        OnClick = Circle1Click
+        object img_notification: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 2
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0281494441545847ED97BD8ED34010C7677D42E7E343F61510A86C9E007883BC
+                017984BB37382A4AE009D2D2014F70A4A33BD351424787D3014D62891301E9BC
+                FC67761C5DEC38F1079140BA9FB459CF7A77763C3BBB3BA15D6389E20BA2B39F
+                44333C5B3C9F729BBEEE477837FEC245C50A3C5131F1E5A26DFD8DC0E4968B8A
+                15F46B57262F0A7B85FB78D2734740F9481F2BFC267AC8B511A921411085E4D3
+                C890798C91ACC0B9D1D247FCA696EC24FB367D2D6D805DEDC3512A56C0E4A6B1
+                01C19D68648C798551B50A95D45AFB820D6137C30B436D5F21279AECC1438D96
+                201CC463E399539D3CB1B97D8249EECFBFA6868BBDB08F201FE35D8A12B3A188
+                8D67507EBC209AB38ECB701BDE9DA8B8195624C1368867C1BD68EB2078EA84FB
+                EA9831028EB7A104232F097B85DBB4FB66824174B49CFC762441D304EE5B18C1
+                4BA7CDED8102DEE7B6C99797114F14C673F0B665F9F51B0E9A6D60EC997C0074
+                695385DA2094AD0638A2A5A10308D689D4646B9761D32E708192CB1EEF86A1B7
+                5C79C67B20721BD4FD08D87E6CD3D3E81CD82557065C19B0D6001C1CC559CD97
+                4B5F440776422452893A0FFC3D03ACBB0DF9F614B9C47A03ACCB56726B3F89DC
+                83DCD8F7F2E0399D65D61A80BB5F8E61642BDD4F41C5B86C09B5D359A66280DE
+                5C45169368DD9D853B8ED9ABEB6EC5AA0790F3E95382B4AA770C64D994632091
+                6CEA3A556EC54A4E8868E5EBB759C6D29E1429DC4A30D6ED827F1378A748309E
+                6BD3924E590F4066DC9CFD1BC11419EF11CA70FF5690F97BE167DF0FFD83C3C3
+                A7E69A79E7DF0C878B1FF337DABD11AD96004199141912B6D5D81C98191788E2
+                11BC737BBE05AD3CC0FC3ACF12F504BB3C9693CED007FEAF907D9FBE74BDFE1B
+                88FE002499EABFBD9D3AD90000000049454E44AE426082}
+              FileName = 
+                'C:\Users\User\Desktop\iago\Projetos Delphi\DashboardPlantsUi\ima' +
+                'ges\icons\icon_bel_2.png'
+            end>
+          Align = Client
+          Locked = True
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Circle2: TCircle
+        Align = Right
+        Fill.Color = claWhite
+        Position.X = 250.000000000000000000
+        Size.Width = 45.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        OnClick = Circle2Click
+        object img_add: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap.LoadSize = 2
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                0093494441545847ED95C10D80200C455117701437D235DCD20DF4EA4937D056
+                8AA90663808897FF929FDF03A11F0EAD0109B4A485344A9D1D6EBC8938481485
+                780CDC5813755729FE1B0880000880003A809BED6EBCBEE98EEF8C4F8FBB43CF
+                F6AF75EE0EFD03B5780E56F10B1D29C72FF0EBB9D701B6210220000220404A00
+                3DCF27F1602AF1186652634BD393065B82108CD901CA625A5CB2B260B1000000
+                0049454E44AE426082}
+              FileName = 
+                'C:\Users\User\Desktop\iago\Projetos Delphi\DashboardPlantsUi\ima' +
+                'ges\icons\icon_add 1.png'
+            end>
+          Align = Client
+          Locked = True
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Label1: TLabel
+        Align = Left
+        StyledSettings = [Family, FontColor]
+        Margins.Left = 15.000000000000000000
+        Position.X = 15.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 18.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        Text = 'My Plants'
+        TabOrder = 2
+      end
+      object animaTb: TFloatAnimation
+        Duration = 0.300000011920929000
+        PropertyName = 'Margins.Top'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+    end
+    object lbPlants: TListBox
+      Align = Client
+      Size.Width = 295.000000000000000000
+      Size.Height = 427.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'transparentlistboxstyle'
+      TabOrder = 2
+      ShowScrollBars = False
+      Columns = 2
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      ParentShowHint = False
+      ShowHint = False
+      OnItemClick = lbPlantsItemClick
+      Viewport.Width = 295.000000000000000000
+      Viewport.Height = 427.000000000000000000
+      object animaOpacityLB: TFloatAnimation
+        Duration = 0.300000011920929000
+        Interpolation = Circular
+        PropertyName = 'Opacity'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+    end
+    object rect_fundoSel: TRectangle
+      Fill.Color = claBlack
+      Position.X = 80.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 110.000000000000000000
+      Size.Height = 160.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Visible = False
+      XRadius = 10.000000000000000000
+      YRadius = 10.000000000000000000
+      object AnimaWidth: TFloatAnimation
+        Duration = 0.300000011920929000
+        Interpolation = Circular
+        PropertyName = 'Width'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+      object AnimaHeight: TFloatAnimation
+        Duration = 0.300000011920929000
+        Interpolation = Circular
+        OnFinish = AnimaHeightFinish
+        PropertyName = 'Height'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+      object img_plantsSel: TImage
+        MultiResBitmap.Height = 472
+        MultiResBitmap.Width = 528
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+          end>
+        Align = Client
+        HitTest = False
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 90.000000000000000000
+        Size.Height = 140.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object AnimaX: TFloatAnimation
+        Duration = 0.300000011920929000
+        Interpolation = Circular
+        PropertyName = 'Position.X'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+      object AnimaY: TFloatAnimation
+        Duration = 0.300000011920929000
+        Interpolation = Circular
+        PropertyName = 'Position.Y'
+        StartValue = 0.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+    end
+  end
+  object rect_buttomFull: TRectangle
+    Align = Bottom
+    Fill.Color = claWhite
+    Margins.Bottom = -100.000000000000000000
+    Position.Y = 352.000000000000000000
+    Size.Width = 307.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claWhite
+    Visible = False
+    object animaBtnFull: TFloatAnimation
+      Duration = 0.300000011920929000
+      PropertyName = 'Margins.Bottom'
+      StartValue = 0.000000000000000000
+      StopValue = 0.000000000000000000
+    end
+    object Label2: TLabel
+      Align = Top
+      StyledSettings = [Family, FontColor]
+      Opacity = 0.800000011920929000
+      Size.Width = 307.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Center
+      Text = 'Nome da Planta'
+      TabOrder = 0
+    end
+  end
+  object rect_tbFull: TRectangle
+    Align = Top
+    Fill.Kind = None
+    Margins.Top = -50.000000000000000000
+    Position.Y = -50.000000000000000000
+    Size.Width = 295.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+    object Circle6: TCircle
+      Align = Left
+      Fill.Kind = None
+      Size.Width = 45.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = Circle6Click
+      object Image4: TImage
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00A2494441545847EDD6B10AC2400C80E1437C2A11F4213A38084E82F8CC16BA
+              54500741DCF58F9C52CF74104D74C8073F070725595A9A42086F58D2911A9AC9
+              85A7355D3AEDC84D395CDA900B6DF8994664AE6FF884CCC5F09F0C5F5139DC22
+              F98ECCE9C581B4072CDAD3CD209F62984F0FA77C3E5990B6EDB7DBD294547D4B
+              C8BD9B58E2EEAF9750DF632BDA128FF7D84BB984DBFF40574535B534968B10C2
+              E752BA02E35FA22A768D666A0000000049454E44AE426082}
+            FileName = 
+              'D:\Projetos Delphi\UI COMUNIDADE\DashboardPlantsUi\images\icons\' +
+              'icon_back.png'
+          end>
+        Align = Client
+        Locked = True
+        HitTest = False
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Circle7: TCircle
+      Align = Right
+      Fill.Kind = None
+      Position.X = 250.000000000000000000
+      Size.Width = 45.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = Circle7Click
+      object Image5: TImage
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        MultiResBitmap.LoadSize = 2
+        MultiResBitmap = <
+          item
+            Width = 32
+            Height = 32
+            PNG = {
+              89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+              F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              0118494441545847ED94CB51024114455B4C80100C81105CBA74C90E432003CC
+              4033D10C240432900C3403B867E85BF5AA6B7E6C60F34ED561A67F77665E7751
+              922449927BF358AFB0946BF92A9FE47F758867C9DC97AE55CAB15EFB98CCDEC8
+              3F790AFE4AFA5B08FB91712E7E49C65A26B357D20304BF4BC2DCC797463C46E8
+              679540AF8FCCCAF6D7301821D80B0D0BE8E38194D270EFAF8C2F3C2B9B1B6CCB
+              479B7E820D41F411D0E2D06DD7BA3099BDD0CFD84183B8786A2E5C33BF9BEB32
+              7DD008EC24FD7D5B4055DA2DF039E8DB82D16C87220784327B217290221EE381
+              04A3F79FF591D9D96FD25F6009A5BF85B2C5936C098EE537A3D90FFC5428236F
+              CC953F956F39B687CC45E61CE45E0E716D76922449722B4A3903115E81EF1239
+              F84A0000000049454E44AE426082}
+            FileName = 
+              'D:\Projetos Delphi\UI COMUNIDADE\DashboardPlantsUi\images\icons\' +
+              'icon_ellipsis 1.png'
+          end>
+        Align = Client
+        Locked = True
+        HitTest = False
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object animatbFull: TFloatAnimation
+      Duration = 0.300000011920929000
+      OnFinish = animatbFullFinish
+      PropertyName = 'Margins.Top'
+      StartValue = 0.000000000000000000
+      StopValue = 0.000000000000000000
+    end
+  end
+end
